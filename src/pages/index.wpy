@@ -1,0 +1,22 @@
+<style lang="scss">
+  .container {
+    width: 100%;
+    text-align: center;
+  }
+</style>
+<template>
+  <view class="container">Wechat Mini Program</view>
+</template>
+<script>
+import wepy from 'wepy'
+export default class Index extends wepy.page {
+  config = {
+    navigationBarTitleText: 'Wechat MP'
+  }
+  components = {}
+  data = {}
+  methods = {}
+  events = {}
+  onLoad() {}
+}
+</script>
